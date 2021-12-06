@@ -1,7 +1,7 @@
 import nltk
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
+import os
 
 # nltk.download('stopwords')
 # nltk.download('wordnet')
@@ -25,7 +25,9 @@ def cleanData(list_of_strings):
         cleaned_list.append(cleanstring)
     return cleaned_list
 
-train_data = pd.read_csv('train.csv', names = ['Label','Text'] )
+PATH = os.getcwd()
+
+train_data = pd.read_csv(PATH + '/yelp_review_polarity_csv/train.csv', names = ['Label','Text'] )
 trainData_list = train_data['Text'].tolist()
 cleaned_trainData = cleanData(trainData_list)
 train_data['cleaned_text'] = cleaned_trainData
@@ -52,7 +54,7 @@ train_data = train_data.drop(index = arr)
 train_data, val_data = train_test_split(train_data, train_size=0.9, random_state=random_seed)
 train_data, val_data = train_data.reset_index(drop=True), val_data.reset_index(drop=True)
 
-test_data = pd.read_csv('test.csv', names = ['Label','Text'] )
+test_data = pd.read_csv(PATH + '/yelp_review_polarity_csv/test.csv', names = ['Label','Text'] )
 testData_list = test_data['Text'].tolist()
 cleaned_testData = cleanData(testData_list)
 test_data['cleaned_text'] = cleaned_testData
