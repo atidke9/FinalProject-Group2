@@ -1,1 +1,1 @@
-
+Step 1: Run the DataPrepocessing.py file after downloading the train and test dataset. Running this file will save cleaned datasets to different csv files which will be used for other codes.
