@@ -1,1 +1,5 @@
 Step 1: Run the DataPrepocessing.py file after downloading the train and test dataset. Running this file will save cleaned datasets to different csv files which will be used for other codes.
+
+Step 2: Run the project_lstm.py file to run the LSTM code on 100% training dataset.
+
+Step 3: Run the project_lstm_25%data.py file to run the LSTM code on 25% training dataset. This way we compared the test accuracy by shrinking the data and fortunately, the accuracy didn't decrease much.
