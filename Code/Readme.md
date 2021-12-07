@@ -10,7 +10,7 @@ Run the following command to access the Kaggle API using the command line (Anaco
 1. To use the Kaggle API, sign up for a Kaggle account at https://www.kaggle.com. 
 2. Then go to the 'Account' tab of your user profile (https://www.kaggle.com/<username>/account) and select 'Create API Token'. 
 3. This will trigger the download of kaggle.json, a file containing your API credentials. 
-4. Place this file in the location ~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json)
+4. Place this file in the location C:\Users\<Windows-username>\.kaggle\kaggle.json
 
 Change the directory in the command prompt to your project directory by using command:    
 ***cd Users/[username]/Downloads/Group2Project (in my case)***
