@@ -4,7 +4,7 @@
 As we are downloading our dataset from Kaggle, we have to install the kaggle API first followed by few more steps.
 
 Run the following command to access the Kaggle API using the command line (Anaconda command prompt for Pycharm)
-pip install kaggle
+*pip install kaggle*
 
 1. To use the Kaggle API, sign up for a Kaggle account at https://www.kaggle.com. 
 2. Then go to the 'Account' tab of your user profile (https://www.kaggle.com/<username>/account) and select 'Create API Token'. 
@@ -12,9 +12,10 @@ pip install kaggle
 4. Place this file in the location ~/.kaggle/kaggle.json (on Windows in the location C:\Users\<Windows-username>\.kaggle\kaggle.json)
 
 Change the directory in the command prompt to your project directory by using command:
-cd Users/[username]/Downloads/Group2Project (in my case)
+*cd Users/[username]/Downloads/Group2Project (in my case)*
 
-Run the command on Anaconda command prompt: kaggle datasets download ilhamfp31/yelp-review-dataset
+Run the command on Anaconda command prompt: 
+*kaggle datasets download ilhamfp31/yelp-review-dataset*
 This will download the dataset zip file to your project directory.
 
 Once the above steps are followed, open DataDownload.py file. Upload the downloaded .zip file to your cloud from Pycharm. Run the code. This will unzip the dataset file and save it to a folder "yelp_review_polarity_csv"
