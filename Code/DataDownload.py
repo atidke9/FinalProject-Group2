@@ -1,11 +1,10 @@
 import os
 from zipfile import ZipFile
 
-os.system('pip install kaggle')
-os.system('kaggle datasets download ilhamfp31/yelp-review-dataset' )
+Path = os.getcwd()
 
 # specifying the zip file name
-file_name = "yelp-review-dataset.zip"
+file_name = Path + "\\yelp-review-dataset.zip"
 
 # opening the zip file in READ mode
 with ZipFile(file_name, 'r') as zip:
