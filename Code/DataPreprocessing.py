@@ -80,19 +80,3 @@ test_data = test_data.drop(index = arr_test)
 train_data.to_csv('train_cleaned.csv')
 val_data.to_csv('val_cleaned.csv')
 test_data.to_csv('test_cleaned.csv')
-
-
-
-
-
-
-# download required file from blackboard to the above path
-# upload the file to cloud
-#open and save text file as a string
-# glo = open(PATH + '/Train.txt')        #upload to ubuntu
-# string = glo.read()
-
-# # if downloading from url zip file
-# os.system("wget https://dl.fbaipublicfiles.com/glue/data/CoLA.zip")
-# os.system("unzip CoLA.zip")
-# file = pd.read_csv("CoLA/test.tsv", sep='\t')
