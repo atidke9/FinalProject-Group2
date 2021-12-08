@@ -16,7 +16,7 @@ Change the directory in the command prompt to your project directory by using co
 ***cd Users/[username]/Downloads/Group2Project (in my case)***
 
 Run the command on Anaconda command prompt:    
-***kaggle datasets download ilhamfp31/yelp-review-dataset***
+***kaggle datasets download ilhamfp31/yelp-review-dataset***    
 This will download the dataset zip file to your project directory.
 
 Once the above steps are followed, open DataDownload.py file. Upload the downloaded .zip file to your cloud from Pycharm. Run the code. This will unzip the dataset file and save it to a folder "yelp_review_polarity_csv"
