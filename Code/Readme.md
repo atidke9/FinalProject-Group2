@@ -23,9 +23,24 @@ Once the above steps are followed, open DataDownload.py file. Upload the downloa
 
 ## For Mac users
 
-## Remaining steps
-Step 3: Run the DataPrepocessing.py file after downloading the train and test dataset. Running this file will save cleaned datasets to different csv files which will be used for other codes.
+## Downloading Data
+### Step 1: Download your Kaggle API
+Log in to Kaggle and access your account. 
 
-Step 4: Run the project_lstm.py file to run the LSTM code on 100% training dataset.
+Scroll down to the API section. 
 
-Step 5: Run the project_lstm_25%data.py file to run the LSTM code on 25% training dataset. This way we compared the test accuracy by shrinking the data and fortunately, the accuracy didn't decrease much.
+Click on ‘Create New API Token’ and download the kaggle.json file which contains your API token.
+
+### Step 2: Run Download_data_shell.sh file
+
+Open your terminal.
+
+Type the following command:
+
+bash Download_data_shell.sh <kaggle.json_location> <project_folder_location>
+
+Replace:
+
+<kaggle.json_location> with the path of the kaggle.json file download in the previous step.
+
+<project_folder_location> with the path of this project downloaded in your system.
