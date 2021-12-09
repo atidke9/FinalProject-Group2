@@ -6,6 +6,7 @@ import os
 # nltk.download('stopwords')
 # nltk.download('wordnet')
 stopwords = nltk.corpus.stopwords.words('english')
+random_seed = 42
 
 def cleanData(list_of_strings):
     cleaned_list = []
