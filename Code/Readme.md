@@ -23,7 +23,7 @@ Once the above steps are followed, open DataDownload.py file. Upload the downloa
 
 ## For Mac users
 
-## Downloading Data
+### Downloading Data
 ### Step 1: Download your Kaggle API
 Log in to Kaggle and access your account. 
 
