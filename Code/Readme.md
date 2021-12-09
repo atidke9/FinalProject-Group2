@@ -39,4 +39,4 @@ Replace:
 <project_folder_location> with the path of this project downloaded in your system.
  
 ### Step 3: Run the DataPreprocessing.py file to create the csv files of the cleaned data.    
-  The cleaned data csv files will be used to run the LSTM codes (project_lstm.py and project_lstm_25%data.py).
+  The cleaned data csv files will be used to run the LSTM codes (LSTM_Model.py and LSTM_Model_25%TrainData.py).
