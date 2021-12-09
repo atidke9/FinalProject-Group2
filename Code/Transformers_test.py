@@ -107,10 +107,10 @@ for batch in test_dataloader:
 
 
 acc = accuracy_score(Y, PRED)
-print("\nValidation accuracy:",acc)
+print("\nTest accuracy:",acc)
 
 pre = precision_score(Y, PRED)
-print("\nValidation precision:",pre)
+print("\nTest precision:",pre)
 
 rec = recall_score(Y, PRED)
-print("\nValidation recall:",rec)
+print("\nTest recall:",rec)
